@@ -6,4 +6,4 @@ RUN apt install -y python3
 COPY . /app
 WORKDIR /app
 
-CMD ["python3", "hello.py"]
+CMD ["python3", "code/hello.py"]
